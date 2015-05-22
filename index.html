@@ -7,6 +7,7 @@ layout: default
 <h1>My repositories in GitHub</h1>
 
 <ul>
+{{ site.github.public_repositories }}  
 {% for repository in site.github.public_repositories %}
   {% assign link_url = {{ repository.html_url }} %}
   {{ link_url }}
