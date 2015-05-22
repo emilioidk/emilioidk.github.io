@@ -8,6 +8,7 @@ url: "http://emilio.lundgaardlopez.com" # the base hostname & protocol for your 
 twitter_username: emiliomlopez
 github_username:  emiliolcc
 linkedin_username: emiliolcc
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown

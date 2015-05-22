@@ -6,7 +6,7 @@ categories: github
 tags: gh-pages repository jekyll
 ---
 ## The problem
-When hosted my page in GitHub Pages I found that I get access to an API with the information about my github user. This is very useful as I can for example list all my public repositories, and provide a link to them so visitor can check out my _attemps_ to develop. The easiest way to list them was provided by the documentation of [GitHub Pages] itself:
+When hosted my page in GitHub Pages I found that I get access to an API with the information about my github user. This is very useful as I can for example list all my public repositories, and provide a link to them so visitor can check out my _attemps_ to develop. <!--more-->The easiest way to list them was provided by the documentation of [GitHub Pages] itself:
 
 {% highlight ruby %}
 {% raw %}
