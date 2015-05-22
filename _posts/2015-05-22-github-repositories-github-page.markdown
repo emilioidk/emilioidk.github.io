@@ -18,22 +18,10 @@ When hosted my page in GitHub Pages I found that I get access to an API with the
 {% endraw %}
 {% endhighlight %}
 
-The problem with this code is that *respository.html_url* doesn't take into account whether the repository has a GitHub Page set up. To check whether there is a page or not we need to check if there is a branch for the project called _gh-pages_. One way of doing this is assigning the *html_url* before starting to cycle through the branches. If a brach named _gh-pages_ apperas, change the address of the link to the GitHub Page. the final code is:
+The problem with this code is that *respository.html_url* doesn't take into account whether the repository has a GitHub Page set up.
 
-{% highlight ruby %}
-{% raw %}
-<ul>
-{% for repository in site.github.public_repositories %}
-  {% assign link_url = {{ repository.html_url }} %}
-  {% for branch in respository.branches_url %}
-    {% if branch.name == "gh-pages" %}
-      {% assign link_url = {{ site.url }}/{{ repository.name }}%}
-    {% endif %}
-  {% endfor %}
-  <li> <a href="{{ link_url }}">{{ repository.name }}</a></li>
-{% endfor %}
-</ul>
-{% endraw %}
-{% endhighlight %}
+## Thinking for a solution
+
+To check whether there is a page or not we need to check if there is a branch for the project called _gh-pages_.
 
 [GitHub Pages]: https://pages.github.com
