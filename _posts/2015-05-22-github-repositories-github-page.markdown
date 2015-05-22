@@ -22,6 +22,12 @@ The problem with this code is that *respository.html_url* doesn't take into acco
 
 ## Thinking for a solution
 
+### By checking for a gh-pages branch
+
 To check whether there is a page or not we need to check if there is a branch for the project called _gh-pages_.
+
+### By defining the homepage manually
+
+GitHub allows us to manually input a description and homepage of a project through the repository's page. The homepage can be access in Liquid Template by using (in the example from before) {% raw %}{{ repository.homepage }}{% endraw %}. As sometimes the empty value of such variable is represented by _null_ and some other times by "", we will need to check both before accepting its existance.
 
 [GitHub Pages]: https://pages.github.com

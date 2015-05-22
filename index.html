@@ -8,7 +8,13 @@ layout: default
 
 <ul>
 {% for repository in site.github.public_repositories %}
-    <li> <a href="{{ repository.html_url }}">{{ repository.name }}</a></li><p>{{ repository.description }}</p>
+    <li>
+      <a href="{{ repository.html_url }}">{{ repository.name }}</a>
+      {% if repository.homepage and repository.homepage != "" %}
+        <a href="{{ repository.homepage }}">({{ repository.name }})</a>
+      {% endif %}
+      <p>{{ repository.description }}</p>
+    </li>
 {% endfor %}
 </ul>
 
