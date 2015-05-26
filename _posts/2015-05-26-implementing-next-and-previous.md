@@ -28,4 +28,4 @@ Fortunately, **Jekyll** does provide a way of know if there are such things as p
   </div>
 </div>
 {% endraw %}
-{% endhiglight %}
+{% endhighlight %}
