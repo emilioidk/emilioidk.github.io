@@ -21,7 +21,7 @@ permalink: /blog/
         {% for category in post.categories %}
           {{ category }}
         {% endfor %}
-      </span>
+      </span><br/>
       {{ post.excerpt }}
     </li>
   {% endfor %}

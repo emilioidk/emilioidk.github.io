@@ -13,3 +13,16 @@ layout: default
   </article>
 
 </div>
+
+<div class="post">
+  <div id="previousPost" style="float:left;width:50%;">
+    {%if page.previous %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">Prev: {{ page.previous.title }}</a>
+    {% endif %}
+  </div>
+  <div id="nextPost" style="float:right;width:50%;">
+    {%if page.next %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }}</a>
+    {% endif %}
+  </div>
+</div>
