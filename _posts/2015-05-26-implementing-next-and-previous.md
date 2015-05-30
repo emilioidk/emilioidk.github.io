@@ -29,3 +29,5 @@ Fortunately, **Jekyll** does provide a way of know if there are such things as p
 </div>
 {% endraw %}
 {% endhighlight %}
+
+>**NOTE:** The reason why we check for page.previous before building the anchor is because Jekyll will return _null_ if such post doesn't exist
