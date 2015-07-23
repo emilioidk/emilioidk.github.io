@@ -9,6 +9,13 @@ permalink: /cv/
       display:none;
     }
   }
+  .hidePrint {
+    display:none;
+  }
+  a {
+    color:inherit;
+    text-decoration:inherit;
+  }
 </style>
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/resources/cv.jpg" alt="Emilio Martin Lundgaard Lopez"></div>
@@ -25,15 +32,15 @@ permalink: /cv/
 
 ## ACADEMIC EXPERIENCE
 
-*  **Name of the course:** Licenciatura en Ciencias de la Computación.[Website](http://www.fceia.unr.edu.ar/lcc).<br/>
-   **Institution:** Universidad Nacional de Rosario, Rosario, Argentina. [Website](http://www.unr.edu.ar).<br/>
+*  **Name of the course:** Licenciatura en Ciencias de la Computación.<span class="hidePrint">[Website](http://www.fceia.unr.edu.ar/lcc).</span><br/>
+   **Institution:** Universidad Nacional de Rosario, Rosario, Argentina. <span class="hidePrint">[Website](http://www.unr.edu.ar).</span><br/>
    **Description:** The education is equivalent to a Master in Computer Science. It is a 5-year education with a final research thesis. For more information about the education visit [www.fceia.unr.edu.ar/lcc](http://www.fceia.unr.edu.ar/lcc).<br/>
    **Dates:** Started 2006 and continuing.<br/>
    **Total completed of the education:** 90%.<br/>
    **Grades average:** 8.59.
 
 *  **Name of the course:** Polimodal en Producción	de Bienes y Servicios.<br/>
-   **Institution:** Instituto Politécnico Superior ”Libertador General	San Martín”, Rosario, Argentina. [Website](http://www.ips.edu.ar/).<br/>
+   **Institution:** Instituto Politécnico Superior ”Libertador General	San Martín”, Rosario, Argentina. <span class="hidePrint">[Website](http://www.ips.edu.ar/).</span><br/>
    **Description:** Integrated education on goods and services production.<br/>
    **Dates:** From 2003 to 2005.<br/>
    **Total completed of the education:** 100%.
@@ -47,12 +54,12 @@ permalink: /cv/
 ## PROFESSIONAL EXPERIENCE
 
 *  **Position:** IT Consultant.<br/>
-   **Company:** Itecnis S.R.L., Rosario, Santa Fe, Arngetina. [Website](http://www.itecnis.com/).<br/>
+   **Company:** Itecnis S.R.L., Rosario, Santa Fe, Arngetina. <span class="hidePrint">[Website](http://www.itecnis.com/).</span><br/>
    **Dates:** October 2013 – April 2014<br/>
    **Description:** My goal at this position was to provide solutions to customers and coworkers including for example automatic backup services, web and mail servers maintenance, network usage, network devices configuration, and others. Among other services, I was in charge of providing level 1 assistance to some of the companies we provided services to. That included setting up new workstations, fixing existing ones and educating users on different characteristics of their systems. I was in charge of several virtualization projects some of which required setting up mail servers, web servers and other services. I was occasionally involved in developing projects baring in mind documentation, UX/UI design, and both backend and frontend development.
 
 *  **Position:** Intern.<br/>
-   **Company:** Itecnis S.R.L., Rosario, Santa Fe, Arngetina. [Website](http://www.itecnis.com/).<br/>
+   **Company:** Itecnis S.R.L., Rosario, Santa Fe, Arngetina. <span class="hidePrint">[Website](http://www.itecnis.com/).</span><br/>
    **Dates:** July 2013 – September 2013 (3 months)<br/>
    **Description:** During my internship I was in charge of small projects prepared to encourage me to get into the company's world. While developed some small part of my time, most of it was destined to R&D, infrastructure and network maintainence. Throughout my internship I learnt how to use everyday tools for a working environment of this kind (e.g. Linux shell, networking diagnose tools, etc.).
 
