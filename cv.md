@@ -8,13 +8,15 @@ permalink: /cv/
     .site-nav{
       display:none;
     }
-  }
-  .hidePrint {
-    display:none;
-  }
-  a {
-    color:inherit;
-    text-decoration:inherit;
+
+    .hidePrint {
+      display:none;
+    }
+
+    a {
+      color:inherit;
+      text-decoration:inherit;
+    }
   }
 </style>
 
