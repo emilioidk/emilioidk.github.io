@@ -5,6 +5,11 @@ permalink: /cv/
 ---
 <style>
 
+  .link
+  {
+    cursor: pointer;
+  }
+
   .hide{
     display:none;
   }
@@ -27,7 +32,7 @@ permalink: /cv/
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/resources/cv.jpg" alt="Emilio Martin Lundgaard Lopez"></div>
 
-<h2 id="toggle1" class="toggleInfo">PERSONAL DETAILS <span id="toggle1A">&#8595;</span></h2>
+<h2 id="toggle1" class="toggleInfo">PERSONAL DETAILS <span id="toggle1A" class="link">&#8595;</span></h2>
 <span id="toggle1I" style="display:none;">
 **Place of birth:** Rosario, Argentina.<br/>
 **Date of birth:** January 19th, 1988.<br/>
@@ -37,7 +42,7 @@ permalink: /cv/
 **Email address:** [emilio@lundgaardlopez.com](mailto:emilio@lundgaardlopez.com)<br/>
 </span>
 
-<h2 id="toggle2" class="toggleInfo">ACADEMIC EXPERIENCE <span id="toggle2A">&#8595;</span></h2>
+<h2 id="toggle2" class="toggleInfo">ACADEMIC EXPERIENCE <span id="toggle2A" class="link">&#8595;</span></h2>
 <div id="toggle2I" style="display:none;">
 <ul>
   <li>
@@ -65,7 +70,7 @@ permalink: /cv/
 </ul>
 </div>
 
-<h2 id="toggle3" class="toggleInfo">PROFESSIONAL EXPERIENCE <span id="toggle3A">&#8595;</span></h2>
+<h2 id="toggle3" class="toggleInfo">PROFESSIONAL EXPERIENCE <span id="toggle3A" class="link">&#8595;</span></h2>
 <div id="toggle3I" style="display:none;">
 <ul>
   <li>
@@ -85,7 +90,7 @@ permalink: /cv/
 
 ## SKILLS
 
-<h3 id="toggle4" class="toggleInfo">Programming languages <span id="toggle4A">&#8595;</span></h3>
+<h3 id="toggle4" class="toggleInfo">Programming languages <span id="toggle4A" class="link">&#8595;</span></h3>
 <div id="toggle4I" style="display:none;">
 
 <h4 id="advcanced">Advcanced</h4>
@@ -116,7 +121,7 @@ permalink: /cv/
 </ul>
 </div>
 
-<h3 id="toggle5" class="toggleInfo">Development skills <span id="toggle5A">&#8595;</span></h3>
+<h3 id="toggle5" class="toggleInfo">Development skills <span id="toggle5A" class="link">&#8595;</span></h3>
 <div id="toggle5I" style="display:none;">
 
 <h4 id="front-end">Front end</h4>
@@ -162,7 +167,7 @@ permalink: /cv/
 <p>Normally I use Git to keep versions of my development under the best practices. I also have experience using SVN.</p>
 </div>
 
-<h2 id="toggle6" class="toggleInfo">LANGUAGE SKILLS <span id="toggle6A">&#8595;</span></h2>
+<h2 id="toggle6" class="toggleInfo">LANGUAGE SKILLS <span id="toggle6A" class="link">&#8595;</span></h2>
 <div id="toggle6I" style="display:none;">
 <ul>
   <li>
