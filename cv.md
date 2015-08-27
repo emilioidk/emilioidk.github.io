@@ -86,6 +86,27 @@ permalink: /cv/
 <strong>Description:</strong> During my internship I was in charge of small projects prepared to encourage me to get into the company’s world. While developed some small part of my time, most of it was destined to R&amp;D, infrastructure and network maintainence. Throughout my internship I learnt how to use everyday tools for a working environment of this kind (e.g. Linux shell, networking diagnose tools, etc.).</p>
   </li>
 </ul>
+<h3>Portfolio</h3>
+<table>
+  <tr>
+    <td style="width:70%;">
+      <strong>Kaffe Fair's webpage</strong>
+      <p><strong>Description: </strong>Webpage developed in 2015 for the coffee shop Kaffe Fair. Click the picture to see a sample screenshot. You can also try the final result at <a href="http://www.kaffefair.dk">Kaffe Fair's homepage.</a></p>
+    </td>
+    <td>
+      <a href="../resources/kaffefair.png"><img src="../resources/kaffefair.png"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Kaffe Fair's alternative webpage</strong>
+      <p><strong>Description: </strong> Alternative proposed for the development of a new webpage for Kaffe Fair. for more information about this alternative and a video showing a glance of it check out <a href="../development/portfolio/webdesign/2015/08/25/Kaffe-Fair-Alternative-design.html">this blog post.</a></p>
+    </td>
+    <td>
+    <a href="../resources/kaffefairalt.png"><img src="../resources/kaffefairalt.png"/></a>
+    </td>
+  </tr>
+</table>
 </div>
 
 ## SKILLS
