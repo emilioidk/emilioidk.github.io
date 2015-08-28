@@ -7,20 +7,15 @@ title: Blog
 {% for post in paginator.posts %}
 <span class="post-meta">
   {{ post.date | date: "%b %-d, %Y" }}
-  {% for tag in post.tags %}
-    {{ tag }}
-  {% endfor %}
 </span>
 
 <h1>
   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 </h1>
 <span class="post-meta">
-  {% for category in post.categories %}
-    {{ category }}
-  {% endfor %}
 </span><br/>
 {{ post.excerpt }}
+<hr/>
 
 {% endfor %}
 

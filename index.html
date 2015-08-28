@@ -4,18 +4,11 @@ layout: default
 
 <div class="home">
 
-<h1>My repositories in GitHub</h1>
-
-<ul>
-{% for repository in site.github.public_repositories %}
-    <li>
-      <a href="{{ repository.html_url }}">{{ repository.name }}</a>
-      {% if repository.homepage and repository.homepage != "" %}
-        <a href="{{ repository.homepage }}">({{ repository.name }})</a>
-      {% endif %}
-      <p>{{ repository.description }}</p>
-    </li>
-{% endfor %}
-</ul>
+<h1>Emilio Martin Lundgaard Lopez</h1>
+<h2>Full time developer & Nerd</h2>
+<p>Hi! As you might already have figured out my name is Emilio. I live in Aalborg, Denmark
+  and love developing! I am always open to meeting new people, engaging in new projects,
+  and talking about nerdy stuff. If you would like to do any of those with me, contact me at
+  <a href="mailto:emilio@lundgaardlopez.com">emilio@lundgaardlopez.com</a>.</p>
 
 </div>

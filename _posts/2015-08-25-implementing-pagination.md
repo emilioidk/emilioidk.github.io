@@ -48,5 +48,7 @@ Initially that's a fine code but the issue is that pagination will create a item
 {% endraw %}
 {% endhighlight %}
 
+> EDIT: While I like generalizing code and making it as abstract as possible, I realized that the code looks smoother and nicer when just manually creating the navingation anyways. As the items from the navigation menu are relative, I don't need to have much in mind, just list the items I want to place.
+
 [Jekyll documentation]: http://jekyllrb.com/docs/variables/
 [the raw for blog/index.html]: https://github.com/emiliolcc/emiliolcc.github.io/raw/master/blog/index.html
