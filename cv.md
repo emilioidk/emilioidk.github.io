@@ -149,7 +149,7 @@ permalink: /cv/
 
 <p>I have used several tools and frameworks when it came to <em>front end development</em>. For example, I’ve used  <a href="http://getbootstrap.com/">Twitter Bootstrap</a>, <a href="http://foundation.zurb.com/">Foundation</a>, <a href="https://jquery.com/">JQuery</a>, and others. I like keeping modularity in my applications because it provides reusable, debuggable, clean code.</p>
 
-<p>I have experience with graphich tools such as Gimp, Inkscape, Adobe Photoshop, and Adobe Illustrator.</p>
+<p>I have experience with graphic tools such as Gimp, Inkscape, Adobe Photoshop, and Adobe Illustrator.</p>
 
 <h4 id="back-end">Back end</h4>
 
