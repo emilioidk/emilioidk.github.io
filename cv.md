@@ -32,17 +32,16 @@ permalink: /cv/
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/resources/cv.jpg" alt="Emilio Martin Lundgaard Lopez"></div>
 
-<h2 id="toggle1" class="toggleInfo">PERSONAL DETAILS <span id="toggle1A" class="link">&#8595;</span></h2>
+<h2 id="toggle1" class="toggleInfo">PERSONAL DETAILS <span id="toggle1A" class="link hidePrint">&#8595;</span></h2>
 <span id="toggle1I" style="display:none;">
 **Place of birth:** Rosario, Argentina.<br/>
 **Date of birth:** January 19th, 1988.<br/>
-**Nationality:** Argentinean.<br/>
 **Home address:** Markusgade 1, (9000) Aalborg, Denmark.<br/>
 **Phone number:** +4593993436<br/>
 **Email address:** [emilio@lundgaardlopez.com](mailto:emilio@lundgaardlopez.com)<br/>
 </span>
 
-<h2 id="toggle2" class="toggleInfo">ACADEMIC EXPERIENCE <span id="toggle2A" class="link">&#8595;</span></h2>
+<h2 id="toggle2" class="toggleInfo">ACADEMIC EXPERIENCE <span id="toggle2A" class="link hidePrint">&#8595;</span></h2>
 <div id="toggle2I" style="display:none;">
 <ul>
   <li>
@@ -70,7 +69,7 @@ permalink: /cv/
 </ul>
 </div>
 
-<h2 id="toggle3" class="toggleInfo">PROFESSIONAL EXPERIENCE <span id="toggle3A" class="link">&#8595;</span></h2>
+<h2 id="toggle3" class="toggleInfo">PROFESSIONAL EXPERIENCE <span id="toggle3A" class="link hidePrint">&#8595;</span></h2>
 <div id="toggle3I" style="display:none;">
 <ul>
   <li>
@@ -83,7 +82,7 @@ permalink: /cv/
     <p><strong>Position:</strong> Intern.<br>
 <strong>Company:</strong> Itecnis S.R.L., Rosario, Santa Fe, Arngetina. <a href="http://www.itecnis.com/" class="hidePrint">Website.</a><br>
 <strong>Dates:</strong> July 2013 – September 2013 (3 months)<br>
-<strong>Description:</strong> During my internship I was in charge of small projects prepared to encourage me to get into the company’s world. While developed some small part of my time, most of it was destined to R&amp;D, infrastructure and network maintainence. Throughout my internship I learnt how to use everyday tools for a working environment of this kind (e.g. Linux shell, networking diagnose tools, etc.).</p>
+<strong>Description:</strong> During my internship I was in charge of small projects prepared to encourage me to get into the company’s world. While developed some small part of my time, most of it was destined to R&amp;D, infrastructure and network maintenance. Throughout my internship I learnt how to use everyday tools for a working environment of this kind (e.g. Linux shell, networking diagnose tools, etc.).</p>
   </li>
 </ul>
 <h3>Portfolio</h3>
@@ -91,7 +90,7 @@ permalink: /cv/
   <tr>
     <td style="width:70%;">
       <strong>Kaffe Fair's webpage</strong>
-      <p><strong>Description: </strong>Webpage developed in 2015 for the coffee shop Kaffe Fair. Click the picture to see a sample screenshot. You can also try the final result at <a href="http://www.kaffefair.dk">Kaffe Fair's homepage.</a></p>
+      <p><strong>Description: </strong>Webpage developed in 2015 for the coffee shop Kaffe Fair. You can try the final result at Kaffe Fair's homepage <a href="http://www.kaffefair.dk">(kaffefair.dk)</a>.</p>
     </td>
     <td>
       <a href="../resources/kaffefair.png"><img src="../resources/kaffefair.png"/></a>
@@ -100,10 +99,19 @@ permalink: /cv/
   <tr>
     <td>
       <strong>Kaffe Fair's alternative webpage</strong>
-      <p><strong>Description: </strong> Alternative proposed for the development of a new webpage for Kaffe Fair. for more information about this alternative and a video showing a glance of it check out <a href="../development/portfolio/webdesign/2015/08/25/Kaffe-Fair-Alternative-design.html">this blog post.</a></p>
+      <p><strong>Description: </strong> Alternative proposed for the development of a new webpage for Kaffe Fair. For more information about this alternative and a video showing a glance of it check out <a href="../development/portfolio/webdesign/2015/08/25/Kaffe-Fair-Alternative-design.html">my blog</a> <a href="../blog">(emilio.lundgaardlopez.com/blog)</a>.</p>
     </td>
     <td>
     <a href="../resources/kaffefairalt.png"><img src="../resources/kaffefairalt.png"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>PGA of Denmark web re-design</strong>
+      <p><strong>Description: </strong> Proposed design for the re development of PGA of Denmark's website. It was done in Wordpress keeping in mind ease of usability, responsiveness, and simplicity. The design can be checked at <a href="http://pga.lundgaardlopez.com">pga.lundgaardlopez.com</a>.</p>
+    </td>
+    <td>
+    <a href="../resources/kaffefairalt.png"><img src="../resources/pga.png"/></a>
     </td>
   </tr>
 </table>
@@ -111,7 +119,7 @@ permalink: /cv/
 
 ## SKILLS
 
-<h3 id="toggle4" class="toggleInfo">Programming languages <span id="toggle4A" class="link">&#8595;</span></h3>
+<h3 id="toggle4" class="toggleInfo">Programming languages <span id="toggle4A" class="link hidePrint">&#8595;</span></h3>
 <div id="toggle4I" style="display:none;">
 
 <h4 id="advcanced">Advcanced</h4>
@@ -142,7 +150,7 @@ permalink: /cv/
 </ul>
 </div>
 
-<h3 id="toggle5" class="toggleInfo">Development skills <span id="toggle5A" class="link">&#8595;</span></h3>
+<h3 id="toggle5" class="toggleInfo">Development skills <span id="toggle5A" class="link hidePrint">&#8595;</span></h3>
 <div id="toggle5I" style="display:none;">
 
 <h4 id="front-end">Front end</h4>
@@ -188,7 +196,7 @@ permalink: /cv/
 <p>Normally I use Git to keep versions of my development under the best practices. I also have experience using SVN.</p>
 </div>
 
-<h2 id="toggle6" class="toggleInfo">LANGUAGE SKILLS <span id="toggle6A" class="link">&#8595;</span></h2>
+<h2 id="toggle6" class="toggleInfo">LANGUAGE SKILLS <span id="toggle6A" class="link hidePrint">&#8595;</span></h2>
 <div id="toggle6I" style="display:none;">
 <ul>
   <li>
