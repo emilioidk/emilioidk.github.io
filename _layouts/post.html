@@ -15,16 +15,3 @@ layout: default
   </article>
 
 </div>
-
-<div class="post">
-  <div id="previousPost" class="previousLink">
-    {%if page.previous %}
-      <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">Prev: {{ page.previous.title }}</a>
-    {% endif %}
-  </div>
-  <div id="nextPost" class="nextLink">
-    {%if page.next %}
-      <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }}</a>
-    {% endif %}
-  </div>
-</div>

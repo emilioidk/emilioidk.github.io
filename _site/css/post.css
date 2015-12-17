@@ -1,0 +1,11 @@
+.previousLink
+{
+  float:left;
+  width:50%;
+}
+
+.nextLink
+{
+  float:right;
+  width:50%;
+}

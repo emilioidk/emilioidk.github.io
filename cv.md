@@ -99,7 +99,7 @@ permalink: /cv/
   <tr>
     <td>
       <strong>Kaffe Fair's alternative webpage</strong>
-      <p><strong>Description: </strong> Alternative proposed for the development of a new webpage for Kaffe Fair. For more information about this alternative and a video showing a glance of it check out <a href="../development/portfolio/webdesign/2015/08/25/Kaffe-Fair-Alternative-design.html">my blog</a> <a href="../blog">(emilio.lundgaardlopez.com/blog)</a>.</p>
+      <p><strong>Description: </strong> Alternative proposed for the development of a new webpage for Kaffe Fair. For more information about this alternative and a video showing a glance of it check out <a href="../development/portfolio/webdesign/2015/08/25/Kaffe-Fair-Alternative-design.html">this page</a>.</p>
     </td>
     <td>
     <a href="../resources/kaffefairalt.png"><img src="../resources/kaffefairalt.png"/></a>
