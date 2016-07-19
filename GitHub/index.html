@@ -13,6 +13,9 @@ layout: default
       {% if repository.homepage and repository.homepage != "" %}
         <a href="{{ repository.homepage }}">({{ repository.name }})</a>
       {% endif %}
+      {% if repository.language and repository.language != "" %}
+        ({{ repository.language }})</a>
+      {% endif %}
       <p>{{ repository.description }}</p>
     </li>
 {% endfor %}
