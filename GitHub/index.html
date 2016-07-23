@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% for repository in site.github.public_repositories %}
+	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+	{% if thecycle == 'odd' %}
+  	<div class="project left">
+  	{% else %}
+  	<div class="project right">
+  	{% endif %}
+  		<div class="project-language">
+  		{% if repository.language and repository.language != "" %}
+        	{{ repository.language }}
+      	{% endif %}
+      	</div>
+	  	<div class="project-text">
+	  		<h3 class="project-name"><a href="{{ repository.html_url }}">{{ repository.name }}</a></h3>
+	  		<p class="project-description">{{ repository.description }}</p>
+	  	</div>
+  	</div>
+{% endfor %}
+
+</div>

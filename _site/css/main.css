@@ -1,0 +1,116 @@
+body {
+  min-width: 400px;
+  max-width: 750px;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-image: url("../assets/circuit-board-bg.jpg");
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.page-wrapper {
+  width: 100%;
+  background-color: white; }
+
+.wrapper {
+  padding: 0px 50px; }
+
+.site-header {
+  background-color: black;
+  font-size: 18px;
+  font-family: "Raleway Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  line-height: 50px; }
+
+.site-header * .page-link {
+  margin: 0px 10px; }
+
+.site-header * a {
+  text-decoration: none;
+  color: white; }
+
+.site-nav {
+  float: right; }
+
+.back-to-top {
+  float: right;
+  text-align: right; }
+
+.copyright-text {
+  font-size: 12px; }
+
+.split-row {
+  display: flex;
+  margin-top: 25px; }
+
+.vertical-center-elements {
+  align-items: center; }
+
+.half {
+  width: 50%; }
+
+.leftie {
+  float: left; }
+
+.center-text {
+  text-align: center; }
+
+.rightie {
+  float: right; }
+
+.clear-float {
+  clear: both; }
+
+.contact-container {
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines; }
+
+.contact-container a {
+  vertical-align: middle;
+  display: inline-block;
+  *display: inline;
+  zoom: 1; }
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0; }
+
+@media (max-width: 600px) {
+  .half {
+    width: 100%; }
+
+  .site-header {
+    min-height: 50px;
+    line-height: initial; }
+
+  .vertical-center-elements {
+    align-items: center; }
+
+  .split-row {
+    display: block; } }
+.project {
+  min-height: 100px;
+  width: 100%;
+  padding: 5px 0px; }
+
+.left {
+  background-color: #005892;
+  color: white; }
+
+.right {
+  background-color: whithe;
+  color: #005892;
+  text-align: right; }
+
+.left .project-language {
+  float: left; }
+
+.right .project-language {
+  float: right; }
+
+.project-language {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center; }
