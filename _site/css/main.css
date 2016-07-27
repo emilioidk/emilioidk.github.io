@@ -1,10 +1,13 @@
 body {
-  min-width: 400px;
+  min-width: 320px;
   max-width: 750px;
   border: 2px solid black;
   margin: 10px auto;
   background-image: url("../assets/circuit-board-bg.jpg");
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+a {
+  text-decoration: none; }
 
 .page-wrapper {
   width: 100%;
@@ -18,7 +21,8 @@ body {
   font-size: 18px;
   font-family: "Raleway Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  line-height: 50px; }
+  line-height: 50px;
+  clear: both; }
 
 .site-header * .page-link {
   margin: 0px 10px; }
@@ -64,7 +68,7 @@ body {
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines; }
 
-.contact-container a {
+.contact-container * {
   vertical-align: middle;
   display: inline-block;
   *display: inline;
@@ -114,3 +118,31 @@ body {
   height: 100px;
   line-height: 100px;
   text-align: center; }
+
+.project-name a {
+  text-decoration: none;
+  color: inherit; }
+
+.pdf-box {
+  float: right;
+  text-align: center;
+  margin: 0 10px; }
+
+.portfolio-case {
+  width: 300px;
+  text-align: center; }
+
+.portfolio-case:hover {
+  background-color: #005892; }
+
+.portfolio-case:hover > h3 a {
+  color: white; }
+
+img {
+  max-width: 100%; }
+
+.online {
+  color: green; }
+
+.offline {
+  color: red; }
