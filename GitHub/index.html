@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div class="home">
+
 {% for repository in site.github.public_repositories %}
 	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 	{% if thecycle == 'odd' %}

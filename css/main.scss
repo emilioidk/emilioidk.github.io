@@ -49,12 +49,16 @@ $on-laptop:        800px;
 // ;
 
 body {
-    min-width: 400px;
+    min-width: 320px;
     max-width: 750px;
     border: 2px solid black;
 	margin: 10px auto;
 	background-image: url("../assets/circuit-board-bg.jpg");
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
 
 .page-wrapper {
@@ -68,11 +72,12 @@ body {
 
 //Header & navigation
 .site-header {
-    background-color: black;
-    font-size: 18px;
-    font-family: "Raleway Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
-    line-height: 50px;
+  background-color: black;
+  font-size: 18px;
+  font-family: "Raleway Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  line-height: 50px;
+  clear:both;
 }
 
 .site-header * .page-link{
@@ -133,7 +138,7 @@ body {
     text-justify: distribute-all-lines;
 }
 
-.contact-container a {
+.contact-container * {
     vertical-align: middle;
     display: inline-block;
     *display: inline;
@@ -152,7 +157,7 @@ body {
     .half{
         width:100%
     }
- 
+
     .site-header{
         min-height: 50px;
         line-height: initial;
@@ -202,4 +207,35 @@ body {
 .project-name a {
   text-decoration:none;
   color:inherit;
+}
+
+.pdf-box {
+  float: right;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.portfolio-case {
+  width: 300px;
+  text-align: center;
+}
+
+.portfolio-case:hover {
+  background-color:#005892;
+}
+
+.portfolio-case:hover > h3 a {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
 }
