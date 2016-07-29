@@ -9,9 +9,9 @@ layout: default
 	{% if thecycle == 'odd' %}
   	<div class="project left">
   	{% else %}
-  	<div class="project right">
+  	<div class="project right right-text">
   	{% endif %}
-  		<div class="project-language">
+  		<div class="project-language center-text">
   		{% if repository.language and repository.language != "" %}
         	{{ repository.language }}
       	{% endif %}
