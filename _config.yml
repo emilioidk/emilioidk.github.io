@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://emilio.lundgaardlopez.com" # the base hostname & protocol for your site
 twitter_username: emilioidk
 github_username:  emilioidk
+gems: ['jekyll-github-metadata']
 collections:
   portfolio:
     output: true
