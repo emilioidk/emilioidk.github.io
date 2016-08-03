@@ -168,39 +168,42 @@ img {
 //// GitHub specific
 ////
 
-.project {
-  width:100%;
-  min-height: 100px;
-  padding: 5px 0;
+.github-case {
+  min-width: 220px;
+  max-width: 300px;
+  height:250px;
+  margin: 25px 0;
 }
 
-.left {
-  background-color: $medium-color;
-  color: $medium-color-contrast;
+.github-case a{
+  color: #005892;
 }
 
-.right{
-  background-color: $medium-color-contrast;
-  color: $medium-color;
+.github-project-name {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  /* width: 100%; */
+  border-bottom: 4px solid #005892;
+  vertical-align: middle;
 }
 
-.left .project-language {
-  float: left;
+.github-project-description {
+  padding: 0 10px;
+  padding-top: 25px
 }
 
-.right .project-language {
-  float: right;
+.github-case:hover {
+  background-color: #005892;
 }
 
-.project-language {
-  width: 100px;
-  height: 100px;
-
-  line-height:100px;
+.github-case:hover a {
+  background-color: #005892;
+  color: white;
 }
 
-.project-name a {
-  color:inherit;
+.github-case:hover a .github-project-name {
+  border-bottom: 4px solid white;
 }
 
 ////
