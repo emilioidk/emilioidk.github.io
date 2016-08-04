@@ -4,9 +4,14 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size: 18px;
-$base-small-font-size: 12px;
+$font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-bold: "Raleway Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-medium: "Raleway Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-light: "Raleway Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$big-font-size: 22px;
+$font-size: 18px;
+$sm-font-size: 15px;
+$small-font-size: 12px;
 
 //Colours
 $dark-color: black;
@@ -42,8 +47,8 @@ body {
     border: 2px solid $dark-color;
     background-image: url("/assets/circuit-board-bg.jpg");
 
-    font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-family: $font-family;
+    font-size: $font-size;
 }
 
 a {
@@ -52,6 +57,11 @@ a {
 
 img {
   max-width: 100%;
+}
+
+h2 {
+  font-family: $font-family-bold;
+  font-size: $big-font-size;
 }
 
 .page-wrapper {
@@ -76,18 +86,23 @@ img {
     background-color: $dark-color;
     color: $dark-color-contrast;
 
-    font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-family: $font-family;
+    font-size: $font-size;
     line-height: 50px;
 }
 
 .site-header * .header-link{
     // margin between links in header
     margin: 0 10px;
+    font-family: $font-family-medium;
 }
 
 .site-header * {
     color: white;
+}
+
+.site-title {
+  font-family: $font-family-medium;
 }
 
 ////
@@ -95,7 +110,13 @@ img {
 ////
 
 .copyright-text {
-    font-size: $base-small-font-size;
+  font-family: $font-family-medium;
+  font-size: $small-font-size;
+}
+
+.back-to-top {
+  font-family: $font-family-medium;
+  font-size: $font-size;
 }
 
 ////
@@ -165,6 +186,16 @@ img {
 }
 
 ////
+//// Home specific
+////
+
+.about-me {
+  font-family: $font-family-light;
+  font-size: $big-font-size;
+}
+
+
+////
 //// GitHub specific
 ////
 
@@ -183,14 +214,15 @@ img {
   height: 50px;
   line-height: 50px;
   padding: 0 10px;
-  /* width: 100%; */
   border-bottom: 4px solid #005892;
   vertical-align: middle;
+  font-family: $font-family-medium;
 }
 
 .github-project-description {
   padding: 0 10px;
-  padding-top: 25px
+  padding-top: 25px;
+  font-family: $font-family-light;
 }
 
 .github-case:hover {
@@ -214,6 +246,10 @@ img {
   margin: 0 10px;
 }
 
+.pdf-text {
+  font-size: $sm-font-size;
+}
+
 .portfolio-case {
   max-width: 300px;
 }
@@ -224,6 +260,11 @@ img {
 
 .portfolio-case:hover > h3 a {
   color: $medium-color-contrast;
+}
+
+.full-entry {
+  font-family: $font-family-medium;
+  font-size: $font-size;
 }
 
 ////
