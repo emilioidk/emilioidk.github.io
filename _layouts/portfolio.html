@@ -7,7 +7,7 @@ layout: default
 
 <img src="{{ page.img }}" />
 
-<h3>Current status: <span class="{{ page.status }}">{{ page.status }}<span></h3>
+<h3>Current status: <span class="{{ page.status }}">{{ page.status }}<span>{{% if page.status == "online" %}} <a href="{{ page.link }}">Visit it!</a></h3>
 <h3>Characteristics: <span class="characteristics">{{ page.characteristics }}<span></h3>
 
 <h2>Project description</h2>

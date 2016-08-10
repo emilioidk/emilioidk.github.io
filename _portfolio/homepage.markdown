@@ -4,6 +4,7 @@ title:  "My own homepage"
 img: "/assets/homepage.png"
 miniimg: "/assets/homepagemini.png"
 status: "online"
+link: "http://emilio.lundgaardlopez.com"
 characteristics: "Ruby, Jekyll, responsiveness, HTML, CSS, git."
 ---
 

@@ -4,6 +4,7 @@ title:  "PGA of Denmark redesign"
 img: "/assets/pga.png"
 miniimg: "/assets/pgamini.png"
 status: "online"
+link: "http://www.pga.dk/"
 characteristics: "WordPress, responsiveness, PHP."
 ---
 

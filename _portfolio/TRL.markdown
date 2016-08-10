@@ -4,6 +4,7 @@ title:  "The Restaurant's Logo"
 img: "/assets/TRL.png"
 miniimg: "/assets/TRLmini.png"
 status: "online"
+link: "http://emilio.lundgaardlopez.com/TRL-Single-Page"
 characteristics: "Gimp, frontend, NodeJS, bower, grunt, jade, sass, PureCSS, responsiveness, git"
 ---
 
