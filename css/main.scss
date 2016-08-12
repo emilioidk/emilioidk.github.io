@@ -297,3 +297,19 @@ h2 {
         display: block;
     }
 }
+
+////
+//// Fix width problems for displaying portfolio items
+////
+
+@media(max-width:723px){
+    .github-case{
+      max-width: none;
+    }
+
+    .portfolio-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
