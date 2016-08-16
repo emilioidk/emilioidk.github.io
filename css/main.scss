@@ -194,6 +194,12 @@ h2 {
   font-size: $big-font-size;
 }
 
+.social-container {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 
 ////
 //// GitHub specific
