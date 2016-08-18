@@ -12,4 +12,4 @@ The project consisted in using WordPress to create a new design for the existing
 
 The base theme is [customizr](https://wordpress.org/themes/customizr/).
 
-The implementation is currently up and running at [pga.dk](http://pga.dk).
+The implementation is currently up and running at [pga.dk](http://www.pga.dk).

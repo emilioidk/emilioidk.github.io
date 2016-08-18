@@ -4,8 +4,8 @@ title:  "The Restaurant's Logo"
 img: "/assets/TRL.png"
 miniimg: "/assets/TRLmini.png"
 status: "online"
-link: "http://emilio.lundgaardlopez.com/TRL-Single-Page"
-characteristics: "Gimp, frontend, NodeJS, bower, grunt, jade, sass, PureCSS, responsiveness, git"
+link: "http://emilio.lundgaardlopez.com/TRL-Single-Page/"
+characteristics: "Gimp, frontend, NodeJS, bower, grunt, jade, sass, PureCSS, responsiveness, git, backend, WordPress"
 ---
 
 As practice, I made a web development project. I tried to reproduce the whole process, from informal specification of the client, to finalization of the backend.
