@@ -165,13 +165,10 @@ h2 {
 
 .justify-container {
     text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
 }
 
 .justify-container * {
     display: inline-block;
-    zoom: 1;
 
     vertical-align: middle;
 }
