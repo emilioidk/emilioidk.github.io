@@ -1,0 +1,8 @@
+/* AUTHOR */
+  Your title: Emilio Martin Lundgaard Lopez
+  Site: emilio@lundgaardlopez.com
+  Twitter: emilioidk
+  Location: Aalborg, Denmark.
+
+/* SITE */
+  Standards: HTML5, CSS3.
