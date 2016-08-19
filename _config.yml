@@ -12,6 +12,9 @@ gems: ['jekyll-github-metadata']
 collections:
   portfolio:
     output: true
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 markdown: kramdown

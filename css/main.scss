@@ -309,13 +309,17 @@ h2 {
 ////
 
 @media(max-width:723px){
-    .github-case{
-      max-width: none;
-    }
+  body {
+    background-image: none;
+  }
 
-    .portfolio-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+  .github-case{
+    max-width: none;
+  }
+
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
