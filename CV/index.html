@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="pdf-box float-right center-text">
-  <img src="/assets/pdf.png" />
+  <img src="/assets/pdf.png" alt="" />
   <p class="pdf-text">~150 Kb</p>
   <p class="pdf-text"><a href="https://github.com/emilioidk/cv/raw/master/CVEnglish.pdf">EN</a> | <a href="https://github.com/emilioidk/cv/raw/master/CVDansk.pdf">DK</a></p>
 </div>
@@ -12,7 +12,7 @@ layout: default
 <div class="portfolio-container justify-container clear-float">
 {% for portfolio in site.portfolio %}
   <div class="portfolio-case center-text">
-    <img src="{{ portfolio.miniimg }}" alt="">
+    <img src="{{ portfolio.miniimg }}" alt="{{ portfolio.tittle }}">
     <h3 class="full-entry center-text"><a href="{{ portfolio.url }}" class="full-entry-text">See full entry</a></h3>
   </div>
 {% endfor %}

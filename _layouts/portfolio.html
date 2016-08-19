@@ -5,7 +5,7 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
 </header>
 
-<img src="{{ page.img }}" />
+<img src="{{ page.img }}" alt="{{ page.title }}" />
 
 <h3>Current status: <span class="{{ page.status }}">{{ page.status }}<span>{{% if page.status == "online" %}} <a href="{{ page.link }}">Visit it!</a></h3>
 <h3>Characteristics: <span class="characteristics">{{ page.characteristics }}<span></h3>
