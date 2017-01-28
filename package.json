@@ -1,0 +1,35 @@
+{
+  "name": "emilioidk.github.io",
+  "version": "3.0.0",
+  "description": "My homepage",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilioidk/emilioidk.github.io.git"
+  },
+  "keywords": [
+    "computer",
+    "science",
+    "developer",
+    "frontend",
+    "backend",
+    "jquery",
+    "jekyll",
+    "purecss",
+    "responsive"
+  ],
+  "author": "Emilio Martin Lundgaard Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilioidk/emilioidk.github.io/issues"
+  },
+  "homepage": "https://github.com/emilioidk/emilioidk.github.io#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

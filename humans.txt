@@ -1,8 +1,11 @@
 /* AUTHOR */
-  Your title: Emilio Martin Lundgaard Lopez
-  Site: emilio@lundgaardlopez.com
+  Owner: Emilio Martin Lundgaard Lopez
+  Site: emilio.lundgaardlopez.com
+  Email: emilio@lundgaardlopez.com
   Twitter: emilioidk
   Location: Aalborg, Denmark.
 
 /* SITE */
+  Doctype: HTML5
   Standards: HTML5, CSS3.
+  IDE: VS Code, GIMP

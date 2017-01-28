@@ -1,17 +1,33 @@
-# Site settings
+# Personal information
 title: Emilio Martin Lundgaard Lopez
 email: emilio@lundgaardlopez.com
+twitter_username: emilioidk
+github_username:  emilioidk
+repository: emilioidk/emilioidk.github.io
+
+# Page information
 description: > # this means to ignore newlines until "baseurl:"
   I am a Computer Scientist from Argentina currently living in Aalborg, Denmark.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://emilio.lundgaardlopez.com" # the base hostname & protocol for your site
-twitter_username: emilioidk
-github_username:  emilioidk
-repository: emilioidk/emilioidk.github.io
+timezone: Europe/Copenhagen
 gems: ['jekyll-github-metadata']
-collections:
-  portfolio:
-    output: true
+
+# Exclude
+exclude:
+- .sass-cache
+- .vscode
+- backup
+- bower_components
+- node_modules
+- .gitignore
+- bower.json
+- gulpfile.js
+- package.json
+- CNAME
+- Gemfile*
+
+# Sass
 sass:
   sass_dir: _sass
   style: compressed
