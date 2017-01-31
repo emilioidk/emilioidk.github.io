@@ -8,6 +8,7 @@ const gutil = require('gulp-util');
 const sass = require('gulp-sass');
 
 const cssFiles = '_css/**/*.?(s)css';
+const jsFiles = '_js/**/*.js';
 const htmlFiles = ['**/*.html','!_site/**/*'];
 const mdFiles = ['**/*.md','!_site/**/*'];
 const libraries = [
@@ -35,6 +36,12 @@ gulp.task('css', () => {
         .pipe(concat('all.css'))
         .pipe(autoprefixer())
         .pipe(gulp.dest('css'));
+});
+
+gulp.task('js', () => {
+    gulp.src(jsFiles)
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest('js'));
 });
 
 gulp.task('jekyll', () => {
