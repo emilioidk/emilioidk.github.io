@@ -8,8 +8,8 @@ repository: emilioidk/emilioidk.github.io
 # Page information
 description: > # this means to ignore newlines until "baseurl:"
   I am a Computer Scientist from Argentina currently living in Aalborg, Denmark.
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://emilio.lundgaardlopez.com" # the base hostname & protocol for your site
+baseurl: ""
 timezone: Europe/Copenhagen
 gems: ['jekyll-github-metadata']
 
@@ -34,4 +34,5 @@ sass:
   style: compressed
 
 # Build settings
+incremental: true
 markdown: kramdown
