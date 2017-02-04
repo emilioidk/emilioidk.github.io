@@ -6,10 +6,10 @@ github_username:  emilioidk
 repository: emilioidk/emilioidk.github.io
 
 # Page information
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   I am a Computer Scientist from Argentina currently living in Aalborg, Denmark.
-url: "http://emilio.lundgaardlopez.com" # the base hostname & protocol for your site
 baseurl: ""
+url: "http://localhost:4000"
 timezone: Europe/Copenhagen
 gems: ['jekyll-github-metadata']
 

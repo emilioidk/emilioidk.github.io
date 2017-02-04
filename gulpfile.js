@@ -14,7 +14,7 @@ const mdFiles = ['**/*.md','!_site/**/*'];
 const libraries = [
     { src: 'bower_components/jquery/dist/jquery.min.js', dst: 'js/libs/' },
     { src: 'bower_components/jquery-ui/jquery-ui.min.js', dst: 'js/libs/' },
-    { src: 'bower_components/pure/pure-min.css', dst: 'css/libs/' },
+    { src: 'bower_components/pure/grids-responsive-min.css', dst: 'css/libs/' },
 ];
 const siteRoot = '_site';
 
@@ -69,10 +69,11 @@ gulp.task('serve', () => {
         }
     });
 
-    gulp.watch(cssFiles, ['css']);
+    gulp.watch(cssFiles, ['css','jekyll']);
+    gulp.watch(jsFiles, ['js','jekyll']);
     gulp.watch(htmlFiles, ['jekyll']);
     gulp.watch(mdFiles, ['jekyll']);
 });
 
-gulp.task('build', ['copyLibs','css', 'jekyll']);
-gulp.task('default', ['copyLibs','css', 'jekyll', 'serve']);
+gulp.task('build', ['copyLibs','css', 'js', 'jekyll']);
+gulp.task('default', ['copyLibs','css', 'js', 'jekyll', 'serve']);
