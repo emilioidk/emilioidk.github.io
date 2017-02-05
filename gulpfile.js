@@ -16,6 +16,7 @@ const assets = ['_assets/**/*.png','_assets/**/*.svg'];
 const libraries = [
     { src: 'bower_components/jquery/dist/jquery.min.js', dst: 'js/libs/' },
     { src: 'bower_components/jquery-ui/jquery-ui.min.js', dst: 'js/libs/' },
+    { src: 'bower_components/pure/grids-min.css', dst: 'css/libs/' },
     { src: 'bower_components/pure/grids-responsive-min.css', dst: 'css/libs/' },
 ];
 const siteRoot = '_site';
