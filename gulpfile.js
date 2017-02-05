@@ -12,7 +12,7 @@ const cssFiles = '_css/**/*.?(s)css';
 const jsFiles = '_js/**/*.js';
 const htmlFiles = ['**/*.html','!_site/**/*'];
 const mdFiles = ['**/*.md','!_site/**/*'];
-const assets = '_assets/**/*.png';
+const assets = ['_assets/**/*.png','_assets/**/*.svg'];
 const libraries = [
     { src: 'bower_components/jquery/dist/jquery.min.js', dst: 'js/libs/' },
     { src: 'bower_components/jquery-ui/jquery-ui.min.js', dst: 'js/libs/' },
@@ -32,6 +32,7 @@ gulp.task('copyLibs',() => {
     });
 });
 
+// TODO: Prevent compiling errors from exiting gulp default command
 gulp.task('css', () => {
     gulp.src(cssFiles)
         .pipe(sass())
