@@ -6,11 +6,13 @@ const gulp = require('gulp');
 const gulpCopy = require('gulp-copy');
 const gutil = require('gulp-util');
 const sass = require('gulp-sass');
+const imagemin = require('gulp-imagemin');
 
 const cssFiles = '_css/**/*.?(s)css';
 const jsFiles = '_js/**/*.js';
 const htmlFiles = ['**/*.html','!_site/**/*'];
 const mdFiles = ['**/*.md','!_site/**/*'];
+const assets = '_assets/**/*.png';
 const libraries = [
     { src: 'bower_components/jquery/dist/jquery.min.js', dst: 'js/libs/' },
     { src: 'bower_components/jquery-ui/jquery-ui.min.js', dst: 'js/libs/' },
@@ -36,6 +38,12 @@ gulp.task('css', () => {
         .pipe(concat('all.css'))
         .pipe(autoprefixer())
         .pipe(gulp.dest('css'));
+});
+
+gulp.task('image-optimization', () => {
+    gulp.src(assets)
+        .pipe(imagemin())
+        .pipe(gulp.dest('assets'));
 });
 
 gulp.task('js', () => {
@@ -71,9 +79,10 @@ gulp.task('serve', () => {
 
     gulp.watch(cssFiles, ['css','jekyll']);
     gulp.watch(jsFiles, ['js','jekyll']);
+    gulp.watch(assets, ['image-optimization','jekyll']);
     gulp.watch(htmlFiles, ['jekyll']);
     gulp.watch(mdFiles, ['jekyll']);
 });
 
-gulp.task('build', ['copyLibs','css', 'js', 'jekyll']);
-gulp.task('default', ['copyLibs','css', 'js', 'jekyll', 'serve']);
+gulp.task('build', ['copyLibs','css', 'js', 'image-optimization', 'jekyll']);
+gulp.task('default', ['build', 'serve']);
