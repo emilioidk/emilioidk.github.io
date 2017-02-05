@@ -36,3 +36,7 @@ sass:
 # Build settings
 incremental: true
 markdown: kramdown
+
+# Compress HTML settings
+compress_html:
+  clippings: all
