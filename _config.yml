@@ -1,15 +1,16 @@
 # Personal information
 title: Emilio Martin Lundgaard Lopez
 email: emilio@lundgaardlopez.com
-twitter_username: emilioidk
-github_username:  emilioidk
+twitter_link: "https://twitter.com/emilioidk"
+linkedin_link: "https://dk.linkedin.com/in/emilioidk"
+github_link:  "https://github.com/emilioidk"
 repository: emilioidk/emilioidk.github.io
 
 # Page information
 description: >
   I am a Computer Scientist from Argentina currently living in Aalborg, Denmark.
 baseurl: ""
-url: "http://localhost:4000"
+url: "http://emilio.lundgaardlopez.com"
 timezone: Europe/Copenhagen
 gems: ['jekyll-github-metadata']
 
