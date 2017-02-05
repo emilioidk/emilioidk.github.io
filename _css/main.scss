@@ -1,0 +1,52 @@
+@import "variables";
+@charset "utf-8";
+
+// To ensure proper font while using PureCSS grid
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    font-family: 'Raleway', serif;
+}
+
+body {
+    height: 100%;
+    background: white;
+    margin: 0;
+}
+
+.row { 
+    margin: $medium-gap;
+    margin-bottom: 0;
+    display: block;
+
+    .header-box, .content-box {
+        box-sizing: border-box;
+        padding: $medium-gap;
+    }
+
+    .header-box {
+        background-color: $dark-blue;
+        color: white;
+    }
+
+    .content-box {
+        border: 1px solid $dark-blue;
+        background-color: white;
+    }
+}
+
+// Responsive settings. Contains the styling for screens wider than 48em (768px).
+// Corresponds to pure-u-md classes
+@media screen and (min-width: 48em)	{
+    .row {
+        margin: $large-gap;
+        display: flex;
+        
+        .header-box {
+            padding: $large-gap;
+        }
+
+        .content-box {
+            border-left: 0;
+            padding: $large-gap;
+        }
+    }
+}
