@@ -23,9 +23,10 @@ a {
 }
 
 .row { 
-    margin: $medium-gap;
+    margin: $medium-gap auto;
     margin-bottom: 0;
     display: block;
+    max-width: $max-box-width;
 
     .header-box, .content-box, .inverted-header-box, .inverted-content-box {
         box-sizing: border-box;
@@ -95,7 +96,7 @@ footer {
     }
 
     .row {
-        margin: $large-gap;
+        margin: $large-gap auto;
         display: flex;
         
         .header-box, .inverted-content-box {

@@ -21,9 +21,10 @@ a {
   text-decoration: none; }
 
 .row {
-  margin: 20px;
+  margin: 20px auto;
   margin-bottom: 0;
-  display: block; }
+  display: block;
+  max-width: 1200px; }
   .row .header-box, .row .content-box, .row .inverted-header-box, .row .inverted-content-box {
     box-sizing: border-box;
     padding: 20px; }
@@ -75,7 +76,7 @@ footer {
   body {
     margin-bottom: 50px; }
   .row {
-    margin: 50px;
+    margin: 50px auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
