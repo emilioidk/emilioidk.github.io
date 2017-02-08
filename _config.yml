@@ -37,6 +37,9 @@ sass:
 # Build settings
 incremental: true
 markdown: kramdown
+collections:
+  badges:
+    output: false
 
 # Compress HTML settings
 compress_html:
