@@ -12,10 +12,11 @@ const cssFiles = '_css/**/*.?(s)css';
 const jsFiles = '_js/**/*.js';
 const htmlFiles = ['**/*.html','!_site/**/*'];
 const mdFiles = ['**/*.md','!_site/**/*'];
-const assets = ['_assets/**/*.png','_assets/**/*.svg'];
+const assets = ['_assets/**/*.png','_assets/**/*.svg','_assets/**/*.gif','_assets/**/*.jp?(e)g'];
 const libraries = [
     { src: 'bower_components/jquery/dist/jquery.min.js', dst: 'js/libs/' },
     { src: 'bower_components/jquery-ui/jquery-ui.min.js', dst: 'js/libs/' },
+    { src: 'bower_components/pure/base-min.css', dst: 'css/libs/' },
     { src: 'bower_components/pure/grids-min.css', dst: 'css/libs/' },
     { src: 'bower_components/pure/grids-responsive-min.css', dst: 'css/libs/' },
 ];
