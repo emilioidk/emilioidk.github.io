@@ -21,7 +21,7 @@ a {
   text-decoration: none; }
 
 .row {
-  margin: 20px auto;
+  margin: 20px;
   margin-bottom: 0;
   display: block;
   max-width: 1200px; }
