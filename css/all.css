@@ -35,6 +35,17 @@ a {
     border: 1px solid #289bc6;
     background-color: white; }
 
+.badges-box {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .badges-box img {
+    max-width: 120px;
+    max-height: 120px;
+    margin: 10px; }
+
 .no-border {
   border: 0 !important; }
 
