@@ -1,1 +1,6 @@
-_site/*
+_site
+backup
+.sass-cache
+.vscode
+bower_components
+node_modules

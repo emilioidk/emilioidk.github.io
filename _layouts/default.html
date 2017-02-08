@@ -1,27 +1,12 @@
-<!DOCTYPE html>
+---
+layout: compress
+---
+
+<!doctype html>
 <html lang="en">
-
-  {% include head.html %}
-
-  <body>
-    <div class="alert-wrapper">
-      <p>This page is being rebuilt. Peek the new design <a href="https://github.com/emilioidk/homepage-design/tree/master/outputs">here</a>.</p>
-    </div>
-
-    <div class="page-wrapper">
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+    {% include head.html %}
+    <body>
         {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    </div>
-
-  </body>
-
+        {% include footer.html %}
+    </body>
 </html>
