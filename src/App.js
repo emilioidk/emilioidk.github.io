@@ -5,6 +5,11 @@ import Tab from '@material-ui/core/Tab';
 import { Link, Route, Switch } from 'react-router-dom';
 import './App.css';
 
+import Home from './Home/Home';
+import Blog from './Blog/Blog';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
+
 class App extends Component {
   render() {
     return (
@@ -21,10 +26,10 @@ class App extends Component {
         </header>
         <section style={{ padding: 8 * 8 }}>
           <Switch>
-            <Route exact path="/"><div>Home</div></Route>
-            <Route exact path="/blog"><div>Blog</div></Route>
-            <Route exact path="/projects"><div>Projects</div></Route>
-            <Route exact path="/contact"><div>Contact</div></Route>
+            <Route exact path="/"><Home /></Route>
+            <Route exact path="/blog"><Blog /></Route>
+            <Route exact path="/projects"><Projects /></Route>
+            <Route exact path="/contact"><Contact /></Route>
           </Switch>
         </section>
       </div>
