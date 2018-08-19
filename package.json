@@ -1,9 +1,11 @@
 {
   "name": "emilioidk.github.io",
+  "homepage": "https://emilio.lundgaardlopez.com",
   "version": "4.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^1.4.1",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
@@ -13,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "react-scripts build && ./node_modules/gh-pages/bin/gh-pages.js -d build -b master -r https://github.com/emilioidk/emilioidk.github.io"
   }
 }
